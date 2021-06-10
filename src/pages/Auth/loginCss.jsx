@@ -6,7 +6,7 @@ export const LoginWrapper = style.div`
     width: 100vw;
 
     .login--wrapper {
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         height: 100%;
         display: flex;
@@ -14,17 +14,25 @@ export const LoginWrapper = style.div`
 
         .login--logo-box {
             width: 100%;
-            margin: 45px 0;
+            margin: 55px 0;
         }
 
         .login--content {
             .login--content__title-box {
+                margin-bottom: 40px;
                 h2 {
                     color: #353535;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 700;
                     font-size: 26px;
+                    margin: 0;
                 }
+            }
+
+            .login--content__body {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 25px;
             }
         }
     }
