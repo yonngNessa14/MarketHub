@@ -102,10 +102,10 @@ export const LoginWrapper = style.div`
                         font-weight: bold;
                         font-size: 14px;
                     }
+                }
 
-                    
-
-                    
+                .login--content__body--btn {
+                    margin-top: 40px;
                 }
             }
         }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { LoginWrapper } from "./loginCss";
 import AppLogoBox from "@components/appLogo";
 import AuthInput from "@components/inputs/authInput";
+import { AuthBtn } from "@components/buttons/index";
 
 const Login = () => {
   return (
@@ -26,6 +27,9 @@ const Login = () => {
                   </div>
                 </div>
                 <h3>Mot de passe oublié?</h3>
+              </div>
+              <div className="login--content__body--btn">
+                <AuthBtn />
               </div>
             </div>
             <div>item 2</div>
