@@ -9,6 +9,7 @@ export const LoginWrapper = style.div`
         width: 50%;
         margin: 0 auto;
         height: 100%;
+        // border: 1px solid red;
         display: flex;
         flex-direction: column;
 
@@ -107,7 +108,18 @@ export const LoginWrapper = style.div`
                 .login--content__body--btn {
                     margin-top: 40px;
                 }
+
+                .login--content__body-item2 {
+                    width: 400px;
+                }
             }
+        }
+
+        .footer--box {
+            flex: 1;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
         }
     }
 `;

@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { LoginWrapper } from "./loginCss";
 import AppLogoBox from "@components/appLogo";
 import AuthInput from "@components/inputs/authInput";
-import { AuthBtn } from "@components/buttons/index";
+import { AuthBtn, SocialBtn } from "@components/buttons/index";
+import Footer from "@components/footer/index";
 
 const Login = () => {
   return (
@@ -32,8 +33,15 @@ const Login = () => {
                 <AuthBtn />
               </div>
             </div>
-            <div>item 2</div>
+            <div className="login--content__body-item2">
+              <SocialBtn title="Connectez-vous avec MPESA" img="../pesa.png" bg="#212121" />
+              <SocialBtn title="Connectez-vous avec Facebook" img="../fb.png" bg="#1877F2" />
+              <SocialBtn title="Connectez-vous avec Google" img="../goo.png" bg="#fff" color="#353535" />
+            </div>
           </div>
+        </div>
+        <div className="footer--box">
+          <Footer />
         </div>
       </div>
     </LoginWrapper>
