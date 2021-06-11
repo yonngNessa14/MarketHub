@@ -37,6 +37,11 @@ const Login = () => {
               <SocialBtn title="Connectez-vous avec MPESA" img="../pesa.png" bg="#212121" />
               <SocialBtn title="Connectez-vous avec Facebook" img="../fb.png" bg="#1877F2" />
               <SocialBtn title="Connectez-vous avec Google" img="../goo.png" bg="#fff" color="#353535" />
+              <div className="login--content__body-item2__sub">
+                <p>
+                  Vous avez déjà un compte? <span> Connexion</span>
+                </p>
+              </div>
             </div>
           </div>
         </div>

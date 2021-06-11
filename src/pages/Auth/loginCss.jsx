@@ -111,6 +111,21 @@ export const LoginWrapper = style.div`
 
                 .login--content__body-item2 {
                     width: 400px;
+
+                    .login--content__body-item2__sub {
+                        // border: 1px solid red;
+                        margin-top: 60px;
+                        display: flex;
+                        align-items: center;
+
+                        p {
+                            margin: 0;
+                        }
+
+                        span {
+                            color: #E60000;
+                        }
+                    }
                 }
             }
         }
