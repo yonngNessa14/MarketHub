@@ -53,6 +53,7 @@ export const BtnSocialWrapper = style.button`
         h4 {
             margin: 0;
             color: ${(props) => props.color || "#fff"};
+            font-size: 14px;
         }
     }
 
